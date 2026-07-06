@@ -1,0 +1,344 @@
+export const profile = {
+  name: 'Shahraiz Ahmad',
+  title: 'AI & Shopify Specialist',
+  tagline: 'Building intelligent commerce and AI-powered digital experiences.',
+  education: 'Currently pursuing A Levels',
+  position: 'Former Intern at Benfox Digital Agency',
+  location: 'Pakistan',
+  phone: '+92 320 4335762',
+  email: 'sharaiz.ahmad.15@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/shahraiz-ahmad-8b170b374/',
+  contactMessage:
+    "Whether you need a high-converting Shopify store, custom AI workflows, or just want to chat about tech — I'm ready to help.",
+  bio: [
+    "I'm Shahraiz Ahmad, an AI-focused digital specialist who was an intern at Benfox Digital Agency while pursuing A Levels. My work sits at the intersection of artificial intelligence and practical commerce — turning modern AI tooling into real, measurable outcomes for online stores.",
+    "At Benfox I've managed over 1,600 Shopify products end to end: collecting data, uploading manually, customizing themes, resolving technical issues, and improving store UI. Beyond day-to-day operations, I create AI-generated banners and marketing assets, run client hunting research, and identify potential clients to grow the agency pipeline.",
+    "I work fluently across ChatGPT, Google Gemini, Claude, Claude Code, Perplexity, PicLumen, Flow, Canva, CapCut, and n8n — combining them into repeatable workflows that save time and raise quality. My focus is always on shipping work that looks polished and performs well.",
+  ],
+};
+
+export const stats = [
+  { label: 'Shopify Products Managed', value: '1600+' },
+  { label: 'AI Tools Mastered', value: '12+' },
+  { label: 'Specialist Skills', value: '22+' },
+  { label: 'Services Offered', value: '9' },
+];
+
+export const experience = [
+  {
+    role: 'Digital Agency Intern',
+    company: 'Benfox Digital Agency',
+    period: 'Former',
+    summary:
+      'Hands-on role across Shopify operations, AI content production, and client acquisition research.',
+    responsibilities: [
+      'Managed more than 1600 Shopify products',
+      'Collected product data',
+      'Uploaded products manually',
+      'Customized Shopify themes',
+      'Solved Shopify technical issues',
+      'Improved store UI',
+      'Created AI banners',
+      'Created AI marketing assets',
+      'Worked in Client Hunting',
+      'Researched potential clients',
+    ],
+  },
+];
+
+export const skillCategories = [
+  {
+    name: 'Artificial Intelligence',
+    icon: 'Brain',
+    skills: [
+      { name: 'Artificial Intelligence' },
+      { name: 'Prompt Engineering' },
+      { name: 'ChatGPT' },
+      { name: 'Google Gemini' },
+      { name: 'Claude' },
+      { name: 'Claude Code' },
+      { name: 'Perplexity' },
+      { name: 'PicLumen' },
+    ],
+  },
+  {
+    name: 'Design & Media',
+    icon: 'Palette',
+    skills: [
+      { name: 'Flow' },
+      { name: 'Canva' },
+      { name: 'CapCut' },
+    ],
+  },
+  {
+    name: 'Automation',
+    icon: 'Workflow',
+    skills: [{ name: 'n8n Basics' }],
+  },
+  {
+    name: 'Shopify & Commerce',
+    icon: 'ShoppingBag',
+    skills: [
+      { name: 'Shopify' },
+      { name: 'Shopify Theme Customization' },
+      { name: 'Shopify Product Management' },
+    ],
+  },
+  {
+    name: 'Marketing & Analytics',
+    icon: 'BarChart3',
+    skills: [
+      { name: 'Google Analytics' },
+      { name: 'Google Ads' },
+      { name: 'SEO Basics' },
+    ],
+  },
+  {
+    name: 'Development & Research',
+    icon: 'Code2',
+    skills: [
+      { name: 'AI Website Development' },
+      { name: 'Technical Troubleshooting' },
+      { name: 'Client Research' },
+      { name: 'Professional Communication' },
+    ],
+  },
+];
+
+export const projects = [
+  {
+    title: 'Shopify Store Management at Scale',
+    category: 'Shopify',
+    description:
+      'End-to-end management of a catalog exceeding 1,600 products across a live Shopify store.',
+    problem:
+      'The store had a large, disorganized product catalog with inconsistent data, missing assets, and theme limitations that hurt the customer experience.',
+    solution:
+      'Built a repeatable pipeline for data collection, manual uploads, theme customization, and UI improvements — backed by AI-generated banners and marketing assets.',
+    challenges:
+      'Maintaining data consistency across 1,600+ products while keeping the storefront fast and visually coherent required strict process discipline.',
+    results:
+      'A cleaner, faster, more conversion-friendly store with a maintainable workflow that scaled beyond the initial catalog.',
+    technologies: ['Shopify', 'Product Management', 'Theme Customization', 'AI Assets'],
+    image:
+      'https://images.pexels.com/photos/4467687/pexels-photo-4467687.jpeg?auto=compress&cs=tinysrgb&w=800',
+    metrics: [
+      { label: 'Products Managed', value: '1600+' },
+      { label: 'Process', value: 'Standardized' },
+      { label: 'Store UI', value: 'Improved' },
+    ],
+  },
+  {
+    title: 'AI Banner & Marketing Asset Production',
+    category: 'AI Content',
+    description:
+      'A creative production workflow using AI tools to generate banners and marketing assets for store campaigns.',
+    problem:
+      'The agency needed high-quality marketing visuals at a pace and volume that manual design could not sustain.',
+    solution:
+      'Combined ChatGPT, PicLumen, Canva, and CapCut into a repeatable asset-generation pipeline, producing on-brand banners and promotional media.',
+    challenges:
+      'Keeping visual consistency and brand alignment across AI-generated outputs required careful prompt engineering and post-processing.',
+    results:
+      'Faster turnaround on campaign assets and a scalable creative pipeline for future store launches.',
+    technologies: ['ChatGPT', 'PicLumen', 'Canva', 'CapCut'],
+    image:
+      'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
+    metrics: [
+      { label: 'Asset Type', value: 'Banners + Media' },
+      { label: 'Pipeline', value: 'Repeatable' },
+      { label: 'Turnaround', value: 'Faster' },
+    ],
+  },
+  {
+    title: 'Client Hunting & Lead Research',
+    category: 'Research',
+    description:
+      'A structured research process to identify and qualify potential clients for the agency pipeline.',
+    problem:
+      'Client acquisition was ad-hoc and inconsistent, making it hard to predict pipeline growth.',
+    solution:
+      'Defined a repeatable client research workflow: identifying prospects, qualifying fit, and preparing outreach context.',
+    challenges:
+      'Filtering high-intent prospects from a broad market required clear criteria and disciplined research.',
+    results:
+      'A more predictable lead pipeline and clearer targeting for the agency outreach.',
+    technologies: ['Client Research', 'Professional Communication', 'Google Ads'],
+    image:
+      'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800',
+    metrics: [
+      { label: 'Pipeline', value: 'Structured' },
+      { label: 'Targeting', value: 'Qualified' },
+      { label: 'Outreach', value: 'Context-Ready' },
+    ],
+  },
+];
+
+export const certifications = [
+  {
+    title: 'Diploma in Customer Service',
+    issuer: 'Alison',
+    year: '2024',
+    image: '/certificates/c4ba4b5d-99f1-4ebf-ac12-cb57cf16cd22.jpg',
+    description:
+      'Comprehensive diploma covering customer service principles, communication, and relationship management.',
+  },
+  {
+    title: 'Google AI Essentials',
+    issuer: 'Coursera · Google',
+    year: '2024',
+    image: '/certificates/f33f71c4-56b9-4bc9-afb7-cc2131b43c46.jpg',
+    description:
+      'Foundational certification in AI literacy, prompt engineering, and practical AI tool usage.',
+  },
+  {
+    title: 'Google Project Management',
+    issuer: 'Coursera · Google',
+    year: '2024',
+    image: '/certificates/f9e04c34-f853-4ef0-93bc-5db1553644d5.jpg',
+    description:
+      'Professional certificate in project management foundations, agile methodologies, and project execution.',
+  },
+  {
+    title: 'Diploma in Web Technology',
+    issuer: 'Alison',
+    year: '2024',
+    image: '/certificates/8b3ec714-ecab-4c23-a9ea-10a3eb00b80a.jpg',
+    description:
+      'Diploma covering web development fundamentals, HTML, CSS, and modern web technologies.',
+  },
+  {
+    title: 'Diploma in Operations Management',
+    issuer: 'Alison',
+    year: '2024',
+    image: '/certificates/9b261a1b-7b2d-4f91-b6a0-5ba1242c7299.jpg',
+    description:
+      'Diploma in operations management principles, process optimization, and supply chain fundamentals.',
+  },
+  {
+    title: 'HP LIFE Business Marketing',
+    issuer: 'HP LIFE',
+    year: '2024',
+    image: '/certificates/fbea6209-9485-4663-8825-cd6ff3c497c7.jpg',
+    description:
+      'Certification in business marketing fundamentals, customer targeting, and digital marketing strategy.',
+  },
+];
+
+export const achievements = [
+  {
+    title: '1,600+ Shopify Products Managed',
+    description:
+      'End-to-end ownership of a large product catalog — data collection, manual uploads, and ongoing maintenance.',
+    icon: 'Package',
+  },
+  {
+    title: 'AI-Powered Creative Pipeline',
+    description:
+      'Built a repeatable workflow for AI-generated banners and marketing assets across multiple campaigns.',
+    icon: 'Sparkles',
+  },
+  {
+    title: 'Client Pipeline Research',
+    description:
+      'Established a structured client hunting process to identify and qualify potential agency clients.',
+    icon: 'Search',
+  },
+  {
+    title: 'Multi-Tool AI Fluency',
+    description:
+      'Fluent across 12+ AI tools — ChatGPT, Gemini, Claude, Claude Code, Perplexity, PicLumen, Flow, and more.',
+    icon: 'Brain',
+  },
+  {
+    title: 'Store UI Improvements',
+    description:
+      'Improved storefront UI and resolved technical issues to lift the customer experience.',
+    icon: 'LayoutDashboard',
+  },
+  {
+    title: 'Theme Customization',
+    description:
+      'Customized Shopify themes to match brand requirements and improve conversion paths.',
+    icon: 'Palette',
+  },
+];
+
+export const services = [
+  {
+    title: 'AI Prompt Engineering',
+    description:
+      'Crafting precise, reusable prompts across ChatGPT, Gemini, Claude, and Perplexity to get production-quality output.',
+    icon: 'Brain',
+    features: ['Prompt design', 'Tool selection', 'Output optimization'],
+  },
+  {
+    title: 'Shopify Store Setup',
+    description:
+      'Building new Shopify stores from the ground up — structure, settings, and a clean launch-ready foundation.',
+    icon: 'ShoppingBag',
+    features: ['Store architecture', 'Settings configuration', 'Launch readiness'],
+  },
+  {
+    title: 'Shopify Theme Customization',
+    description:
+      'Tailoring Shopify themes to match brand identity and improve the customer shopping experience.',
+    icon: 'Palette',
+    features: ['Brand alignment', 'UI improvements', 'Conversion-focused layout'],
+  },
+  {
+    title: 'Shopify Product Management',
+    description:
+      'Managing catalogs at scale — data collection, manual uploads, and ongoing product maintenance.',
+    icon: 'Package',
+    features: ['Catalog management', 'Data collection', 'Bulk uploads'],
+  },
+  {
+    title: 'AI Website Development',
+    description:
+      'Building websites with AI-assisted development workflows for faster, higher-quality delivery.',
+    icon: 'Code2',
+    features: ['AI-assisted builds', 'Modern stack', 'Fast delivery'],
+  },
+  {
+    title: 'AI Content Creation',
+    description:
+      'Producing AI-generated banners, marketing assets, and creative media for campaigns.',
+    icon: 'Sparkles',
+    features: ['Banners', 'Marketing media', 'Creative pipelines'],
+  },
+  {
+    title: 'Workflow Optimization',
+    description:
+      'Designing repeatable workflows with n8n and AI tools to reduce manual work and raise quality.',
+    icon: 'Workflow',
+    features: ['Process design', 'Automation basics', 'Quality control'],
+  },
+  {
+    title: 'Technical Troubleshooting',
+    description:
+      'Diagnosing and resolving Shopify and web technical issues to keep stores running smoothly.',
+    icon: 'Wrench',
+    features: ['Issue diagnosis', 'Shopify fixes', 'Store stability'],
+  },
+  {
+    title: 'Digital Consulting',
+    description:
+      'Advising brands on AI adoption, Shopify strategy, and digital growth opportunities.',
+    icon: 'Lightbulb',
+    features: ['AI strategy', 'Shopify advisory', 'Growth planning'],
+  },
+];
+
+export const navLinks = [
+  { label: 'Home', href: '#home' },
+  { label: 'About', href: '#about' },
+  { label: 'Experience', href: '#experience' },
+  { label: 'Skills', href: '#skills' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Certifications', href: '#certifications' },
+  { label: 'Achievements', href: '#achievements' },
+  { label: 'Services', href: '#services' },
+  { label: 'AI Assistant', href: '#ai-assistant' },
+  { label: 'Contact', href: '#contact' },
+];
