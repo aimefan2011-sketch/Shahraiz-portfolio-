@@ -333,12 +333,7 @@ export const services = [
 export const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
-  { label: 'Experience', href: '#experience' },
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Certifications', href: '#certifications' },
-  { label: 'Achievements', href: '#achievements' },
-  { label: 'Services', href: '#services' },
-  { label: 'AI Assistant', href: '#ai-assistant' },
   { label: 'Contact', href: '#contact' },
 ];
