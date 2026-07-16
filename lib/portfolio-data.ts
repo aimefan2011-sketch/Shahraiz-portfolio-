@@ -223,6 +223,14 @@ export const certifications = [
     description:
       'Covers evaluating AI-generated information critically and making sound judgments in an AI-driven world.',
   },
+  { 
+    title: 'Prompt Engineering Applications',
+  issuer: 'Simplilearn SkillUp',
+  year: '2022',
+  image: '/certificates/prompt-engineering-applications.jpg',
+  description:
+    'Certificate of completion covering practical prompt engineering techniques and real-world AI applications.',
+},
 ];
 
 export const achievements = [
