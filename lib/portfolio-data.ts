@@ -176,52 +176,52 @@ export const projects = [
 
 export const certifications = [
   {
-    title: 'Diploma in Customer Service',
+    title: 'Introduction to Genrative Ai ',
     issuer: 'Alison',
     year: '2024',
     image: '/certificates/c4ba4b5d-99f1-4ebf-ac12-cb57cf16cd22.jpg',
     description:
-      'Comprehensive diploma covering customer service principles, communication, and relationship management.',
+      'Covers the basics of how generative AI models create content and their common applications.',
   },
   {
-    title: 'Google AI Essentials',
+    title: 'Ai for Business Professional',
     issuer: 'Coursera · Google',
     year: '2024',
     image: '/certificates/f33f71c4-56b9-4bc9-afb7-cc2131b43c46.jpg',
     description:
-      'Foundational certification in AI literacy, prompt engineering, and practical AI tool usage.',
+      'Covers applying AI tools to solve business problems and improve decision-making..',
   },
   {
-    title: 'Google Project Management',
+    title: 'Ai for Beginners',
     issuer: 'Coursera · Google',
     year: '2024',
     image: '/certificates/f9e04c34-f853-4ef0-93bc-5db1553644d5.jpg',
     description:
-      'Professional certificate in project management foundations, agile methodologies, and project execution.',
+      'Covers the fundamental concepts of artificial intelligence and how it's used in everyday applications.',
   },
   {
-    title: 'Diploma in Web Technology',
+    title: 'Google Analytics Certification',
     issuer: 'Alison',
     year: '2024',
     image: '/certificates/8b3ec714-ecab-4c23-a9ea-10a3eb00b80a.jpg',
     description:
-      'Diploma covering web development fundamentals, HTML, CSS, and modern web technologies.',
+      'Covers using Google Analytics to track, measure, and interpret website and app data for business insights.',
   },
   {
-    title: 'Diploma in Operations Management',
+    title: 'Google Ads Video Certification ',
     issuer: 'Alison',
     year: '2024',
     image: '/certificates/9b261a1b-7b2d-4f91-b6a0-5ba1242c7299.jpg',
     description:
-      'Diploma in operations management principles, process optimization, and supply chain fundamentals.',
+      'Covers creating and managing video ad campaigns on YouTube and across Google's video network.',
   },
   {
-    title: 'HP LIFE Business Marketing',
+    title: 'Critical Thinking in the Ai Era',
     issuer: 'HP LIFE',
     year: '2024',
     image: '/certificates/fbea6209-9485-4663-8825-cd6ff3c497c7.jpg',
     description:
-      'Certification in business marketing fundamentals, customer targeting, and digital marketing strategy.',
+      'Covers evaluating AI-generated information critically and making sound judgments in an AI-driven world.',
   },
 ];
 
