@@ -176,7 +176,7 @@ export const projects = [
 
 export const certifications = [
   {
-    title: 'Introduction to Genrative Ai ',
+    title: 'Introduction to Generative AI',
     issuer: 'Alison',
     year: '2024',
     image: '/certificates/c4ba4b5d-99f1-4ebf-ac12-cb57cf16cd22.jpg',
@@ -184,20 +184,20 @@ export const certifications = [
       'Covers the basics of how generative AI models create content and their common applications.',
   },
   {
-    title: 'Ai for Business Professional',
+    title: 'AI for Business Professional',
     issuer: 'Coursera · Google',
     year: '2024',
     image: '/certificates/f33f71c4-56b9-4bc9-afb7-cc2131b43c46.jpg',
     description:
-      'Covers applying AI tools to solve business problems and improve decision-making..',
+      'Covers applying AI tools to solve business problems and improve decision-making.',
   },
   {
-    title: 'Ai for Beginners',
+    title: 'AI for Beginners',
     issuer: 'Coursera · Google',
     year: '2024',
     image: '/certificates/f9e04c34-f853-4ef0-93bc-5db1553644d5.jpg',
     description:
-      'Covers the fundamental concepts of artificial intelligence and how it's used in everyday applications.',
+      "Covers the fundamental concepts of artificial intelligence and how it's used in everyday applications.",
   },
   {
     title: 'Google Analytics Certification',
@@ -208,31 +208,30 @@ export const certifications = [
       'Covers using Google Analytics to track, measure, and interpret website and app data for business insights.',
   },
   {
-    title: 'Google Ads Video Certification ',
+    title: 'Google Ads Video Certification',
     issuer: 'Alison',
     year: '2024',
     image: '/certificates/9b261a1b-7b2d-4f91-b6a0-5ba1242c7299.jpg',
     description:
-      'Covers creating and managing video ad campaigns on YouTube and across Google's video network.',
+      "Covers creating and managing video ad campaigns on YouTube and across Google's video network.",
   },
   {
-    title: 'Critical Thinking in the Ai Era',
+    title: 'Critical Thinking in the AI Era',
     issuer: 'HP LIFE',
     year: '2024',
     image: '/certificates/fbea6209-9485-4663-8825-cd6ff3c497c7.jpg',
     description:
       'Covers evaluating AI-generated information critically and making sound judgments in an AI-driven world.',
   },
-  { 
+  {
     title: 'Prompt Engineering Applications',
-  issuer: 'Simplilearn SkillUp',
-  year: '2022',
-  image: '/certificates/prompt-engineering-applications.jpg',
-  description:
-    'Certificate of completion covering practical prompt engineering techniques and real-world AI applications.',
-},
+    issuer: 'Simplilearn SkillUp',
+    year: '2022',
+    image: '/certificates/prompt-engineering-applications.jpg',
+    description:
+      'Certificate of completion covering practical prompt engineering techniques and real-world AI applications.',
+  },
 ];
-
 export const achievements = [
   {
     title: '1,600+ Shopify Products Managed',
