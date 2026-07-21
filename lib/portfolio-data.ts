@@ -231,6 +231,22 @@ export const certifications = [
     description:
       'Certificate of completion covering practical prompt engineering techniques and real-world AI applications.',
   },
+{
+    title: 'Crash Course on Python',
+    issuer: 'Coursera · Google',
+    year: '2026',
+    image: '/certificates/cc90ccfd-ccc1-4459-856a-f93ab2564aac.jpg',
+    description:
+      'Foundational course covering Python programming basics, syntax, and problem-solving.',
+  },
+  {
+    title: 'Agile Project Management',
+    issuer: 'Coursera · Google',
+    year: '2026',
+    image: '/certificates/14aa0e96-757d-429b-83ff-0933434aef45.jpg',
+    description:
+      'Certification in Agile methodology, sprint planning, and iterative project management practices.',
+  },
 ];
 export const achievements = [
   {
