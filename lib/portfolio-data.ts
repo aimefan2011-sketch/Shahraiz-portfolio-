@@ -120,8 +120,8 @@ export const projects = [
     results:
       'A cleaner, faster, more conversion-friendly store with a maintainable workflow that scaled beyond the initial catalog.',
     technologies: ['Shopify', 'Product Management', 'Theme Customization'],
-    image:
-      '/projects/c9b15683-0f85-4d67-9caf-254588f1a085.jpg',
+ image:
+      '/certificates/c9b15683-0f85-4d67-9caf-254588f1a085.jpg',
     metrics: [
       { label: 'Products Managed', value: '1600+' },
       { label: 'Theme', value: 'Self-Customized' },
@@ -143,7 +143,7 @@ export const projects = [
       'A more professional-looking storefront with an expanded product catalog.',
     technologies: ['Shopify', 'Theme Customization', 'Product Management'],
     image:
-      '/projects/23abf157-46d4-439e-b935-02215887f4a7.jpg',
+      '/certificates/23abf157-46d4-439e-b935-02215887f4a7.jpg',
     metrics: [
       { label: 'Theme', value: 'Customized' },
       { label: 'Catalog', value: 'Expanded' },
