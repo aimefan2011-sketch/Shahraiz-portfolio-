@@ -4,8 +4,7 @@ import CharacterBg from './CharacterBg';
 
 export function AnimatedBackground() {
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
-      <CharacterBg
+<div className="fixed inset-0 -z-50 overflow-hidden pointer-events-none">      <CharacterBg
         backgroundColor="transparent"
         speed={30}
         reverse={false}
