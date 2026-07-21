@@ -110,70 +110,47 @@ export const projects = [
     title: 'Shopify Store Management at Scale',
     category: 'Shopify',
     description:
-      'End-to-end management of a catalog exceeding 1,600 products across a live Shopify store.',
+      'Manually built and managed a catalog exceeding 1,600 products on a live Shopify store, along with a full theme customization — done single-handedly.',
     problem:
       'The store had a large, disorganized product catalog with inconsistent data, missing assets, and theme limitations that hurt the customer experience.',
     solution:
-      'Built a repeatable pipeline for data collection, manual uploads, theme customization, and UI improvements — backed by AI-generated banners and marketing assets.',
+      'Manually added and organized 1,600+ products, and customized the entire theme myself — covering data collection, uploads, theme sections, and UI improvements.',
     challenges:
-      'Maintaining data consistency across 1,600+ products while keeping the storefront fast and visually coherent required strict process discipline.',
+      'Maintaining data consistency across 1,600+ manually-added products while keeping the storefront fast and visually coherent required strict process discipline.',
     results:
       'A cleaner, faster, more conversion-friendly store with a maintainable workflow that scaled beyond the initial catalog.',
-    technologies: ['Shopify', 'Product Management', 'Theme Customization', 'AI Assets'],
+    technologies: ['Shopify', 'Product Management', 'Theme Customization'],
     image:
-      'https://images.pexels.com/photos/4467687/pexels-photo-4467687.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/projects/c9b15683-0f85-4d67-9caf-254588f1a085.jpg',
     metrics: [
       { label: 'Products Managed', value: '1600+' },
-      { label: 'Process', value: 'Standardized' },
+      { label: 'Theme', value: 'Self-Customized' },
       { label: 'Store UI', value: 'Improved' },
     ],
   },
   {
-    title: 'AI Banner & Marketing Asset Production',
-    category: 'AI Content',
+    title: 'Shopify Theme Customization — Dexpel',
+    category: 'Shopify',
     description:
-      'A creative production workflow using AI tools to generate banners and marketing assets for store campaigns.',
+      'Customized the Shopify theme for Dexpel, a clothing and fashion store, and added new products to elevate its overall look and feel.',
     problem:
-      'The agency needed high-quality marketing visuals at a pace and volume that manual design could not sustain.',
+      'The store needed a more polished, professional storefront and a broader, better-organized product catalog.',
     solution:
-      'Combined ChatGPT, PicLumen, Canva, and CapCut into a repeatable asset-generation pipeline, producing on-brand banners and promotional media.',
+      'Customized the theme sections and layout, and added new products to expand and professionalize the catalog.',
     challenges:
-      'Keeping visual consistency and brand alignment across AI-generated outputs required careful prompt engineering and post-processing.',
+      'Balancing new product additions with a consistent, on-brand storefront design across the theme.',
     results:
-      'Faster turnaround on campaign assets and a scalable creative pipeline for future store launches.',
-    technologies: ['ChatGPT', 'PicLumen', 'Canva', 'CapCut'],
+      'A more professional-looking storefront with an expanded product catalog.',
+    technologies: ['Shopify', 'Theme Customization', 'Product Management'],
     image:
-      'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/projects/23abf157-46d4-439e-b935-02215887f4a7.jpg',
     metrics: [
-      { label: 'Asset Type', value: 'Banners + Media' },
-      { label: 'Pipeline', value: 'Repeatable' },
-      { label: 'Turnaround', value: 'Faster' },
-    ],
-  },
-  {
-    title: 'Client Hunting & Lead Research',
-    category: 'Research',
-    description:
-      'A structured research process to identify and qualify potential clients for the agency pipeline.',
-    problem:
-      'Client acquisition was ad-hoc and inconsistent, making it hard to predict pipeline growth.',
-    solution:
-      'Defined a repeatable client research workflow: identifying prospects, qualifying fit, and preparing outreach context.',
-    challenges:
-      'Filtering high-intent prospects from a broad market required clear criteria and disciplined research.',
-    results:
-      'A more predictable lead pipeline and clearer targeting for the agency outreach.',
-    technologies: ['Client Research', 'Professional Communication', 'Google Ads'],
-    image:
-      'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800',
-    metrics: [
-      { label: 'Pipeline', value: 'Structured' },
-      { label: 'Targeting', value: 'Qualified' },
-      { label: 'Outreach', value: 'Context-Ready' },
+      { label: 'Theme', value: 'Customized' },
+      { label: 'Catalog', value: 'Expanded' },
+      { label: 'Storefront', value: 'Professionalized' },
     ],
   },
 ];
-
 export const certifications = [
   {
     title: 'Introduction to Generative AI',
