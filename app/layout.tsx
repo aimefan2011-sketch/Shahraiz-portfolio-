@@ -2,7 +2,6 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter, Space_Grotesk, JetBrains_Mono } from 'next/font/google';
 import { Toaster } from '@/components/ui/sonner';
-import { AnimatedBackground } from '@/components/animated-background';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -79,15 +78,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable} font-sans antialiased`}
       >
-        {/* Background Animation */}
-        <AnimatedBackground />
-
-        {/* Website Content */}
-        <main className="relative z-10">
-          {children}
-        </main>
-
-        {/* Toast Notifications */}
+        {children}
         <Toaster />
       </body>
     </html>
