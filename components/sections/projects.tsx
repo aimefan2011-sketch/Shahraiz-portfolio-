@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   ArrowRight,
+  ExternalLink,
   X,
   AlertCircle,
   Target,
@@ -55,9 +56,21 @@ export function Projects() {
                 </div>
 
                 <div className="p-6 flex flex-col flex-1">
-                  <h3 className="font-display text-lg font-semibold text-white mb-2 group-hover:text-blue-400 transition-colors">
+                  <h3 className="font-display text-lg font-semibold text-white mb-1 group-hover:text-blue-400 transition-colors">
                     {project.title}
                   </h3>
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                      className="inline-flex items-center gap-1 text-xs text-blue-400/80 hover:text-blue-400 mb-3 w-fit transition-colors"
+                    >
+                      {project.link.replace(/^https?:\/\//, '')}
+                      <ExternalLink className="h-3 w-3" />
+                    </a>
+                  )}
                   <p className="text-sm text-muted-foreground leading-relaxed mb-4 flex-1">
                     {project.description}
                   </p>
@@ -129,6 +142,17 @@ export function Projects() {
                   <h3 className="font-display text-2xl font-bold text-white">
                     {projects[selected].title}
                   </h3>
+                  {projects[selected].link && (
+                    <a
+                      href={projects[selected].link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-sm text-blue-300 hover:text-blue-200 mt-1.5 transition-colors"
+                    >
+                      Visit {projects[selected].link.replace(/^https?:\/\//, '')}
+                      <ExternalLink className="h-3.5 w-3.5" />
+                    </a>
+                  )}
                 </div>
               </div>
 
