@@ -109,21 +109,22 @@ export const projects = [
   {
     title: 'Shopify Store Management at Scale',
     category: 'Shopify',
+    link: 'https://icasiostore.pk',
     description:
-      'Manually built and managed a catalog exceeding 1,600 products on a live Shopify store, along with a full theme customization — done single-handedly.',
+      'From uploading 1,800+ products manually to a full theme customization — built and managed the entire icasiostore.pk catalog myself.',
     problem:
       'The store had a large, disorganized product catalog with inconsistent data, missing assets, and theme limitations that hurt the customer experience.',
     solution:
-      'Manually added and organized 1,600+ products, and customized the entire theme myself — covering data collection, uploads, theme sections, and UI improvements.',
+      'Manually added and organized 1,800+ products, and customized the entire theme myself — covering data collection, uploads, theme sections, and UI improvements.',
     challenges:
-      'Maintaining data consistency across 1,600+ manually-added products while keeping the storefront fast and visually coherent required strict process discipline.',
+      'Maintaining data consistency across 1,800+ manually-added products while keeping the storefront fast and visually coherent required strict process discipline.',
     results:
       'A cleaner, faster, more conversion-friendly store with a maintainable workflow that scaled beyond the initial catalog.',
     technologies: ['Shopify', 'Product Management', 'Theme Customization'],
- image:
+    image:
       '/certificates/c9b15683-0f85-4d67-9caf-254588f1a085.jpg',
     metrics: [
-      { label: 'Products Managed', value: '1600+' },
+      { label: 'Products Managed', value: '1800+' },
       { label: 'Theme', value: 'Self-Customized' },
       { label: 'Store UI', value: 'Improved' },
     ],
@@ -131,8 +132,9 @@ export const projects = [
   {
     title: 'Shopify Theme Customization — Dexpel',
     category: 'Shopify',
+    link: 'https://dexpel.com',
     description:
-      'Customized the Shopify theme for Dexpel, a clothing and fashion store, and added new products to elevate its overall look and feel.',
+      'Added new products and customized the Shopify theme for Dexpel, a clothing and fashion store, to make it more professional.',
     problem:
       'The store needed a more polished, professional storefront and a broader, better-organized product catalog.',
     solution:
@@ -148,6 +150,72 @@ export const projects = [
       { label: 'Theme', value: 'Customized' },
       { label: 'Catalog', value: 'Expanded' },
       { label: 'Storefront', value: 'Professionalized' },
+    ],
+  },
+  {
+    title: 'Store Rebuild — Shades by Shaista',
+    category: 'Shopify',
+    link: 'https://shadesbyshaista.com',
+    description:
+      'Rebuilt product descriptions from scratch and reorganized the entire catalog for shadesbyshaista.com to give it a professional look.',
+    problem:
+      'Product descriptions and catalog organization needed a complete overhaul to look professional and stay on-brand.',
+    solution:
+      'Rewrote every product description from zero and rearranged the catalog structure for a cleaner, more professional storefront.',
+    challenges:
+      'Rewriting descriptions for the full catalog while keeping tone and formatting consistent across every product.',
+    results:
+      'A more professional, consistent storefront with clearer, better-written product listings.',
+    technologies: ['Shopify', 'Copywriting', 'Catalog Management'],
+    image:
+      'https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg?auto=compress&cs=tinysrgb&w=800',
+    metrics: [
+      { label: 'Descriptions', value: 'Rewritten' },
+      { label: 'Catalog', value: 'Reorganized' },
+      { label: 'Storefront', value: 'Professionalized' },
+    ],
+  },
+  {
+    title: 'Theme Customization — Araian Cart',
+    category: 'Shopify',
+    link: 'https://araiancart.website',
+    description:
+      'Basic theme customization for araiancart.website to improve its storefront appearance.',
+    problem:
+      'The store needed foundational theme adjustments to present better to customers.',
+    solution:
+      'Applied targeted theme customization to improve the storefront presentation.',
+    challenges:
+      'Working within the existing theme structure to make clean, effective improvements.',
+    results:
+      'A more polished storefront appearance.',
+    technologies: ['Shopify', 'Theme Customization'],
+    image:
+      'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=800',
+    metrics: [
+      { label: 'Theme', value: 'Customized' },
+    ],
+  },
+  {
+    title: 'Product Catalog Build — Zyvora Shop',
+    category: 'Shopify',
+    link: 'https://zyvorashop.com',
+    description:
+      'Manually added and listed 250+ products for zyvorashop.com, building out its full product catalog.',
+    problem:
+      'The store needed a complete, well-organized product catalog built from the ground up.',
+    solution:
+      'Manually researched, listed, and organized 250+ products across the store.',
+    challenges:
+      'Maintaining consistent formatting and accuracy while manually listing a large volume of products.',
+    results:
+      'A fully stocked, organized product catalog ready for customers to browse.',
+    technologies: ['Shopify', 'Product Listing', 'Catalog Management'],
+    image:
+      'https://images.pexels.com/photos/5698851/pexels-photo-5698851.jpeg?auto=compress&cs=tinysrgb&w=800',
+    metrics: [
+      { label: 'Products Listed', value: '250+' },
+      { label: 'Catalog', value: 'Built from Scratch' },
     ],
   },
 ];
@@ -337,3 +405,4 @@ export const navLinks = [
   { label: 'Projects', href: '#projects' },
   { label: 'Contact', href: '#contact' },
 ];
+
