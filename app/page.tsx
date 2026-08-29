@@ -22,10 +22,10 @@ export default function Home() {
       <main className="relative">
         <Hero />
         <About />
-        <Experience />
-        <Skills />
         <Projects />
         <Certifications />
+        <Experience />
+        <Skills />
         <Achievements />
         <Services />
         <AIAssistant />
