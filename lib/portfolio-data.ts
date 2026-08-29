@@ -222,7 +222,7 @@ export const projects = [
   {
     title: 'Theme & Catalog Build — AuraHive Shop',
     category: 'Shopify',
-    link: 'https://aurahiveshop.com',
+       link: 'https://aurahiveshop.com',
     description:
       'Customized the Shopify theme and added products for aurahiveshop.com, covering both the storefront design and the catalog.',
     problem:
