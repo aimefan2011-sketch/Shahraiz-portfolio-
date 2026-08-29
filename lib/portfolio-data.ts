@@ -106,6 +106,7 @@ export const skillCategories = [
 ];
 
 export const projects = [
+ export const projects = [
   {
     title: 'Shopify Store Management at Scale',
     category: 'Shopify',
@@ -168,7 +169,7 @@ export const projects = [
       'A more professional, consistent storefront with clearer, better-written product listings.',
     technologies: ['Shopify', 'Copywriting', 'Catalog Management'],
     image:
-      'https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/a6a53079-725a-4ff3-8f51-46312f0d09c1.png',
     metrics: [
       { label: 'Descriptions', value: 'Rewritten' },
       { label: 'Catalog', value: 'Reorganized' },
@@ -176,26 +177,24 @@ export const projects = [
     ],
   },
   {
-  {
-    title: 'Theme & Catalog Build — AuraHive Shop',
+    title: 'Theme Customization — Arabian Cart',
     category: 'Shopify',
-    link: 'https://aurahiveshop.com',
+    link: 'https://arabiancart.website',
     description:
-      'Customized the Shopify theme and added products for aurahiveshop.com, covering both the storefront design and the catalog.',
+      'Basic theme customization for arabiancart.website to improve its storefront appearance.',
     problem:
-      'The store needed both a more professional storefront design and a properly built-out product catalog.',
+      'The store needed foundational theme adjustments to present better to customers.',
     solution:
-      'Customized the theme to improve the storefront design and added products to build out the catalog.',
+      'Applied targeted theme customization to improve the storefront presentation.',
     challenges:
-      'Coordinating theme changes with catalog additions to keep the storefront consistent as products were added.',
+      'Working within the existing theme structure to make clean, effective improvements.',
     results:
-      'A more professional storefront with an expanded, better-presented product catalog.',
-    technologies: ['Shopify', 'Theme Customization', 'Product Management'],
+      'A more polished storefront appearance.',
+    technologies: ['Shopify', 'Theme Customization'],
     image:
-      'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/816e379b-7e7a-42e6-97ac-3b0d0280be11.png',
     metrics: [
       { label: 'Theme', value: 'Customized' },
-      { label: 'Catalog', value: 'Expanded' },
     ],
   },
   {
@@ -214,10 +213,32 @@ export const projects = [
       'A fully stocked, organized product catalog ready for customers to browse.',
     technologies: ['Shopify', 'Product Listing', 'Catalog Management'],
     image:
-      'https://images.pexels.com/photos/5698851/pexels-photo-5698851.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/99c3f4a8-50e7-4802-beb5-028d7d82480d.png',
     metrics: [
       { label: 'Products Listed', value: '250+' },
       { label: 'Catalog', value: 'Built from Scratch' },
+    ],
+  },
+  {
+    title: 'Theme & Catalog Build — AuraHive Shop',
+    category: 'Shopify',
+    link: 'https://aurahiveshop.com',
+    description:
+      'Customized the Shopify theme and added products for aurahiveshop.com, covering both the storefront design and the catalog.',
+    problem:
+      'The store needed both a more professional storefront design and a properly built-out product catalog.',
+    solution:
+      'Customized the theme to improve the storefront design and added products to build out the catalog.',
+    challenges:
+      'Coordinating theme changes with catalog additions to keep the storefront consistent as products were added.',
+    results:
+      'A more professional storefront with an expanded, better-presented product catalog.',
+    technologies: ['Shopify', 'Theme Customization', 'Product Management'],
+    image:
+      '/fc16d21c-d3be-4ba1-9b54-919ccd2e1e50.png',
+    metrics: [
+      { label: 'Theme', value: 'Customized' },
+      { label: 'Catalog', value: 'Expanded' },
     ],
   },
 ];
