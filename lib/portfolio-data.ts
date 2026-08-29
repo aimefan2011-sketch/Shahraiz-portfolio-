@@ -106,7 +106,6 @@ export const skillCategories = [
 ];
 
 export const projects = [
- export const projects = [
   {
     title: 'Shopify Store Management at Scale',
     category: 'Shopify',
@@ -222,7 +221,7 @@ export const projects = [
   {
     title: 'Theme & Catalog Build — AuraHive Shop',
     category: 'Shopify',
-       link: 'https://aurahiveshop.com',
+    link: 'https://aurahiveshop.com',
     description:
       'Customized the Shopify theme and added products for aurahiveshop.com, covering both the storefront design and the catalog.',
     problem:
@@ -242,6 +241,7 @@ export const projects = [
     ],
   },
 ];
+
 export const certifications = [
   {
     title: 'Introduction to Generative AI',
@@ -299,7 +299,7 @@ export const certifications = [
     description:
       'Certificate of completion covering practical prompt engineering techniques and real-world AI applications.',
   },
-{
+  {
     title: 'Crash Course on Python',
     issuer: 'Coursera · Google',
     year: '2026',
@@ -316,6 +316,7 @@ export const certifications = [
       'Certification in Agile methodology, sprint planning, and iterative project management practices.',
   },
 ];
+
 export const achievements = [
   {
     title: '1,600+ Shopify Products Managed',
@@ -428,4 +429,3 @@ export const navLinks = [
   { label: 'Projects', href: '#projects' },
   { label: 'Contact', href: '#contact' },
 ];
-
