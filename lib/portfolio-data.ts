@@ -176,24 +176,26 @@ export const projects = [
     ],
   },
   {
-    title: 'Theme Customization — Araian Cart',
+  {
+    title: 'Theme & Catalog Build — AuraHive Shop',
     category: 'Shopify',
-    link: 'https://araiancart.website',
+    link: 'https://aurahiveshop.com',
     description:
-      'Basic theme customization for araiancart.website to improve its storefront appearance.',
+      'Customized the Shopify theme and added products for aurahiveshop.com, covering both the storefront design and the catalog.',
     problem:
-      'The store needed foundational theme adjustments to present better to customers.',
+      'The store needed both a more professional storefront design and a properly built-out product catalog.',
     solution:
-      'Applied targeted theme customization to improve the storefront presentation.',
+      'Customized the theme to improve the storefront design and added products to build out the catalog.',
     challenges:
-      'Working within the existing theme structure to make clean, effective improvements.',
+      'Coordinating theme changes with catalog additions to keep the storefront consistent as products were added.',
     results:
-      'A more polished storefront appearance.',
-    technologies: ['Shopify', 'Theme Customization'],
+      'A more professional storefront with an expanded, better-presented product catalog.',
+    technologies: ['Shopify', 'Theme Customization', 'Product Management'],
     image:
       'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=800',
     metrics: [
       { label: 'Theme', value: 'Customized' },
+      { label: 'Catalog', value: 'Expanded' },
     ],
   },
   {
