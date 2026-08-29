@@ -421,11 +421,11 @@ export const services = [
     features: ['AI strategy', 'Shopify advisory', 'Growth planning'],
   },
 ];
-
 export const navLinks = [
   { label: 'Home', href: '#home' },
+  { label: 'Projects', href: '#projects' },
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Projects', href: '#projects' },
+  { label: 'AI Assistant', href: '#ai-assistant' },
   { label: 'Contact', href: '#contact' },
 ];
