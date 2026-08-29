@@ -1,13 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { knowledgeBase, getOfflineResponse } from '@/lib/ai-knowledge';
-
+import { buildKnowledgeBase, getOfflineResponse } from '@/lib/ai-knowledge';
 export const runtime = 'edge';
 
 export async function POST(req: NextRequest) {
   try {
     const { messages } = await req.json();
 
-    const systemPrompt = `${knowledgeBase}
+       const systemPrompt = `${buildKnowledgeBase()}
 
 When answering general knowledge questions (not about the portfolio), use your own knowledge to provide helpful, accurate answers. Always be professional and concise. Use markdown formatting where appropriate.`;
 
