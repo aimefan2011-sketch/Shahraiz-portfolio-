@@ -100,9 +100,8 @@ export function getOfflineResponse(message: string): string {
   }
 
   if (lower.includes('shopify')) {
-    return `${profile.name} has extensive Shopify experience — managing 1,600+ products, customizing themes, resolving technical issues, and improving store UI. Shopify-related services include Store Setup, Theme Customization, and Product Management.`;
+    return `${profile.name} has extensive Shopify experience across multiple live stores — including icasiostore.pk (1,800+ products managed and theme customized solo), Dexpel, Shades by Shaista, Arabian Cart, Zyvora Shop, and AuraHive Shop. Work spans full theme customization, manual product uploads and cataloging, product description rewrites, and store UI improvements.`;
   }
-
   if (lower.includes('ai') || lower.includes('artificial') || lower.includes('prompt')) {
     return `${profile.name} specializes in AI and prompt engineering across ChatGPT, Google Gemini, Claude, Claude Code, Perplexity, and PicLumen — building AI workflows for content creation, website development, and commerce.`;
   }
