@@ -4,14 +4,14 @@ export const profile = {
   tagline: 'Building intelligent commerce and AI-powered digital experiences.',
   education: 'Currently pursuing A Levels',
   position: 'Former Intern at Benfox Digital Agency',
-  location: 'Pakistan',
+  location: 'Lahore, Pakistan',
   phone: '+92 320 4335762',
   email: 'sharaiz.ahmad.15@gmail.com',
   linkedin: 'https://www.linkedin.com/in/shahraiz-ahmad-8b170b374/',
   contactMessage:
     "Whether you need a high-converting Shopify store, custom AI workflows, or just want to chat about tech — I'm ready to help.",
   bio: [
-    "I'm Shahraiz Ahmad, an AI-focused digital specialist who was an intern at Benfox Digital Agency while pursuing A Levels. My work sits at the intersection of artificial intelligence and practical commerce — turning modern AI tooling into real, measurable outcomes for online stores.",
+    "I'm Shahraiz Ahmad, an AI-focused digital specialist who was an Employee at Benfox Digital Agency while pursuing A Levels. My work sits at the intersection of artificial intelligence and practical commerce — turning modern AI tooling into real, measurable outcomes for online stores.",
     "At Benfox I've managed over 1,600 Shopify products end to end: collecting data, uploading manually, customizing themes, resolving technical issues, and improving store UI. Beyond day-to-day operations, I create AI-generated banners and marketing assets, run client hunting research, and identify potential clients to grow the agency pipeline.",
     "I work fluently across ChatGPT, Google Gemini, Claude, Claude Code, Perplexity, PicLumen, Flow, Canva, CapCut, and n8n — combining them into repeatable workflows that save time and raise quality. My focus is always on shipping work that looks polished and performs well.",
   ],
@@ -26,7 +26,7 @@ export const stats = [
 
 export const experience = [
   {
-    role: 'Digital Agency Intern',
+    role: 'Digital Agency Employee',
     company: 'Benfox Digital Agency',
     period: 'Former',
     summary:
