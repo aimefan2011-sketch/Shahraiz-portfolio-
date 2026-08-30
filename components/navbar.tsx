@@ -68,9 +68,12 @@ export function Navbar() {
               onClick={() => handleClick('#home')}
               className="flex items-center gap-2 group"
             >
-              <div className="relative h-8 w-8 rounded-lg bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center font-display font-bold text-sm text-white">
-                S
-                <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-blue-500 to-indigo-600 blur-md opacity-50 group-hover:opacity-80 transition-opacity" />
+                          <div className="relative h-10 w-10 rounded-full overflow-hidden shrink-0">
+                <img
+                  src="/Logo of shahraiz.png"
+                  alt={`${profile.name} logo`}
+                  className="h-full w-full object-cover"
+                />
               </div>
               <span className="font-display font-semibold text-sm tracking-tight hidden sm:block">
                 {profile.name}
