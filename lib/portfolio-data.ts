@@ -423,9 +423,11 @@ export const services = [
 ];
 export const navLinks = [
   { label: 'Home', href: '#home' },
-  { label: 'Projects', href: '#projects' },
   { label: 'About', href: '#about' },
+  { label: 'Projects', href: '#projects' },
+   { label:'Certification', href: '#certifications' },
   { label: 'Skills', href: '#skills' },
   { label: 'AI Assistant', href: '#ai-assistant' },
   { label: 'Contact', href: '#contact' },
+  
 ];
