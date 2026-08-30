@@ -33,16 +33,20 @@ export function Hero() {
     >
       <div className="mx-auto max-w-7xl px-4 md:px-6 w-full">
         <div className="flex flex-col items-center text-center gap-8">
-          {/* Status badge */}
+                {/* Status badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="flex items-center gap-2 px-4 py-2 rounded-full glass text-xs font-medium"
+            className="flex items-center gap-2.5 px-4 py-1.5 rounded-full border border-emerald-500/20 bg-emerald-500/[0.04] backdrop-blur-sm text-[11px] font-semibold uppercase tracking-wider text-emerald-300/90"
           >
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75 animate-ping" />
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
+            <span className="relative flex h-1.5 w-1.5">
+              <motion.span
+                animate={{ scale: [1, 2.2, 1], opacity: [0.5, 0, 0.5] }}
+                transition={{ duration: 2.4, repeat: Infinity, ease: 'easeInOut' }}
+                className="absolute inline-flex h-full w-full rounded-full bg-emerald-400"
+              />
+              <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-400" />
             </span>
             Available for opportunities
           </motion.div>
