@@ -1,8 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { GraduationCap, Briefcase, MapPin, User } from 'lucide-react';
-import { profile } from '@/lib/portfolio-data';
+import { GraduationCap, History, MapPin, User } from 'lucide-react';import { profile } from '@/lib/portfolio-data';
 import { SectionHeading } from '@/components/section-heading';
 import { ScrollReveal } from '@/components/scroll-reveal';
 
@@ -13,8 +12,8 @@ const infoCards = [
     value: profile.education,
   },
   {
-    icon: Briefcase,
-    label: 'Current Position',
+    icon: History,
+    label: 'Past Experience',
     value: profile.position,
   },
   {
